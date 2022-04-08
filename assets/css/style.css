@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  color: #6a6a6a; 
+  color: #6a6a6a;
   background: #f1f0f0;
 }
 
@@ -30,7 +30,7 @@ a {
   outline: none;
 }
 
-a{  
+a{
   color: #4da7ca;
   -o-transition: all .4s;
   -ms-transition: all .4s;
@@ -40,12 +40,12 @@ a{
 }
 
 a:hover {
-  color: #4290ae; 
+  color: #4290ae;
 }
 
 
-h2, h3, h4, h5, h6{   
-  margin: 0 0 15px 0; 
+h2, h3, h4, h5, h6{
+  margin: 0 0 15px 0;
   color: #3A4F52;
   font-family: 'Raleway';
 }
@@ -63,11 +63,11 @@ h2, h3, h4, h5, h6{
     border: 1px solid white;
     color: white;
     background: transparent;
-    
+
 }
 .btn.btn-o-white:hover {
     background: white !important;
-    color: #5c5b5b98; 
+    color: #5c5b5b98;
 }
 
 .title-page {
@@ -80,7 +80,7 @@ p.main-header {
   font-weight: 500;
 }
 p.main-header:after {
-  content: " ";   
+  content: " ";
   font-size: 27px;
   font-family: 'Raleway';
   font-weight: 500;
@@ -104,8 +104,8 @@ li{
 /*////////////////////////////////////////////////////////////////////////
 //  02 - Header
 ///////////////////////////////////////////////////////////////////////*/
- 
-    
+
+
 .logo-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -132,24 +132,25 @@ li{
 .shows .navbar-nav {
   float: right;
   margin: 15px 0 0;
-  color: black;
+
 }
 .shows h1.logo {
   margin-top: 0px;
-  
+  font-weight: 900;
 }
 
 .logo {
   margin-top: 11px;
   color: white;
-  text-shadow:midnightblue;
+  background-blend-mode: color-dodge;
   display: inline-flex;
 }
 
-#header{  
-  position: relative;     
+#header{
+  position: relative;
   text-align: center;
   padding: 0 !important;
+
 }
 .navbar-nav {
   float: right;
@@ -166,8 +167,8 @@ li{
   -o-transition: all .5s;
   -ms-transition: all .5s;
   -moz-transition: all .5s;
-  -webkit-transition: all .5s;  
-  transition: all .5s;    
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 #header .top.solid {
     background: #475B6F;
@@ -192,7 +193,7 @@ li{
 .logo-head{
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 
@@ -216,7 +217,7 @@ li{
   color: rgba(255, 255, 255, 0.726);
   line-height: 1em;
   font-family: 'Raleway', sans-serif;
-    
+
 }
 
 #header > .bottom {
@@ -417,7 +418,7 @@ li{
 }
 
 
-@media (min-width: 320px) and (max-width: 1024px) { 
+@media (min-width: 320px) and (max-width: 1024px) {
       .about-us {
       background: white;
       padding: 50px 0;
@@ -438,7 +439,7 @@ i.aboutus-icon {
   width: 140px;
   height: 140px;
   line-height: 136px;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
   color: rgb(106, 106, 106);
 }
@@ -578,15 +579,15 @@ h2.footer-block {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #969595 !important;  
+   color: #969595 !important;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #969595 !important; 
+   color: #969595 !important;
 }
 
-:-ms-input-placeholder {  
-   color: #969595 !important;  
+:-ms-input-placeholder {
+   color: #969595 !important;
 }
 .footer-bottom {
   padding: 37px 0 30px;
